@@ -1,5 +1,9 @@
-package finalTask;public class Main {
+package finalTask;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        AnimalFactory af = new AnimalFactory();
+        Menu m = new Menu();
+        m.start();
     }
 }
